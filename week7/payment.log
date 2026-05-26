@@ -1,0 +1,24 @@
+Starting payment for user 315857318
+Payment of 1000 completed for user 315857318
+2026-05-25 16:57:58,008|INFO|payment|
+2026-05-25 16:57:58,008|INFO|payment|
+2026-05-25 16:59:09,471|INFO|payment|Starting payment for user 315857318
+2026-05-25 16:59:09,471|INFO|payment|Payment of 1000 completed for user 315857318
+2026-05-25 16:59:26,637|INFO|payment|Starting payment for user 315857318
+2026-05-25 16:59:26,637|WARNING|payment|WARNING: Large transaction
+2026-05-25 16:59:26,637|INFO|payment|Payment of 100000 completed for user 315857318
+2026-05-25 17:09:55,431|INFO|payment|Starting payment for user 315857318
+2026-05-25 17:09:55,431|WARNING|payment|WARNING: Large transaction
+2026-05-25 17:09:55,431|INFO|payment|Payment of 100000 completed for user 315857318
+2026-05-25 17:09:55,433|DEBUG|payment|try to open file
+2026-05-25 17:09:55,434|INFO|payment|the open file in secsesfuli
+2026-05-25 17:10:52,432|INFO|payment|Starting payment for user 315857318
+2026-05-25 17:10:52,432|WARNING|payment|WARNING: Large transaction
+2026-05-25 17:10:52,432|INFO|payment|Payment of 100000 completed for user 315857318
+2026-05-25 17:10:52,433|DEBUG|payment|try to open file
+2026-05-25 17:10:52,433|ERROR|payment|file not exist
+Traceback (most recent call last):
+  File "C:\Users\User\codecode-git\week7\login.py", line 46, in read_config
+    with open(filepath) as f:
+         ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'z2.txt'
